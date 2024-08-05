@@ -65,9 +65,9 @@ nav a {
 
 .header {
     background-color: #FFF8F3;
-    background-image: url('../images/header_bg.png');
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
 }
 
 .banner {
@@ -180,6 +180,7 @@ main section {
 .resume-container {
     display: flex;
     gap: 70px;
+    margin-bottom: 10px;
 }
 
 .resume-item-title {
@@ -191,4 +192,44 @@ main section {
 .resume-item-institute,
 .resume-item-description {
     color: #757575;
+}
+
+.resume-item-institute {
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+.download-cv {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Footer Section Styles */
+
+footer {
+    display: flex;
+    background: #FFF8F3;
+    margin-top: 100px;
+    padding: 130px 200px;
+    gap: 100px;
+}
+
+.footer-column {
+    width: 50%;
+}
+
+.social-links a {
+    margin-right: 25px;
+}
+
+.contact input[type="text"],
+.contact input[type="email"],
+textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    background: #FFF;
+    border: 0;
+    width: 100%;
 }
