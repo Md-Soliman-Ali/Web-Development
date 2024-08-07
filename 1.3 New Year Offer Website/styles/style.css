@@ -1,0 +1,247 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.banner-container {
+    background-image: url("../asset/BannerImage.png"), linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+    background-blend-mode: overlay;
+    width: 1293px;
+    height: 600px;
+    color: #FFF;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    margin: 50px 140px;
+}
+
+.title-banner-new-year {
+    font-size: 32px;
+    font-weight: 400;
+    font-family: Merriweather;
+}
+
+.title-banner-celebration {
+    font-size: 72px;
+    font-weight: 900;
+    font-family: Merriweather;
+}
+
+.categories-container {
+    margin-top: 120px;
+}
+
+.categories-details {
+    text-align: center;
+}
+
+.title-categories-off {
+    color: #F00;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+}
+
+.title-categories-holiday {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 48px;
+}
+
+.title-categories-all {
+    color: #070211;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+
+.party-container {
+    margin-top: 120px;
+    background-image: url("../asset/Vector.png"), linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+    background-blend-mode: overlay;
+    width: 1293px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+}
+
+.title-welcome-party {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    margin-bottom: 26px;
+}
+
+.title-party-description {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 48px;
+}
+
+.party-btn-join {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.party-details {
+    margin: 120px;
+}
+
+.party-year {
+    margin-right: 120px;
+}
+
+.venue-container {
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    width: 1293px;
+    height: 480px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+}
+
+.title-venue {
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+
+.venue-btn-join {
+    border-radius: 8px;
+    background: #F00;
+    padding: 16px 32px;
+    color: white;
+    margin-top: 48px;
+}
+
+.offer-container {
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+}
+
+.best-offer {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.offer-coming {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+}
+
+.offer-content {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.offer-description {
+    max-width: 380px;
+}
+
+.client-celebration {
+    border-radius: 463px;
+    border: 15px solid #F00;
+    padding: 25px;
+}
+
+.offer-year {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.celebration-img {
+    margin: 0px 70px;
+}
+
+.offer-year-content {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 43px;
+}
+
+.holidays-container {
+    margin-top: 120px;
+}
+
+.holidays-functional {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.holidays-sale {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    margin-bottom: 28px;
+}
+
+.holidays-content {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    width: 700px;
+    margin-left: 300px;
+}
+
+.holidays-details {
+    text-align: center;
+}
+
+.holidays-mysterybox {
+    display: flex;
+}
+
+.offer-box {
+    margin-top: 65px;
+    z-index: 1;
+}
+
+.offer-discount {
+    margin-top: 150px;
+    margin-left: 180px;
+}
+
+.offer-background {
+    margin-top: -230px;
+}
