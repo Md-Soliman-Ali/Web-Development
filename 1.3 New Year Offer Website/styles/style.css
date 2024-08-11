@@ -245,3 +245,168 @@ main {
 .offer-background {
     margin-top: -230px;
 }
+
+.portfolio-container {
+    margin-top: 120px;
+}
+
+.portfolio-gifts-title {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.portfolio-title {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+}
+
+.portfolio-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 896px;
+    margin-bottom: 48px;
+}
+
+.portfolio-first-column,
+.portfolio-second-column {
+    display: flex;
+}
+
+.portfolio-image {
+    margin-left: 24px;
+    margin-bottom: 24px;
+}
+
+.newsletter-container {
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.newsletter-logo {
+    margin-top: 80px;
+}
+
+.newsletter-title {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-top: 40px;
+}
+
+.newsletter-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 896px;
+    margin-top: 22px;
+    margin-bottom: 48px;
+}
+
+.subscribe-email {
+    font-size: 22px;
+    border-radius: 50px;
+    width: 648px;
+    height: 72px;
+}
+
+.subscribe-button {
+    margin-left: -216px;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    width: 212px;
+    height: 75px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    margin-bottom: 80px;
+}
+
+footer {
+    background: #070211;
+    width: 1579px;
+    height: 600px;
+}
+
+.address-details {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    padding-top: 120px;
+    padding-left: 140px;
+}
+
+.contact-details {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    padding-top: 120px;
+    margin-left: 570px;
+}
+
+.address-container {
+    display: flex;
+}
+
+.line-dividers {
+    width: 1320px;
+    height: 1px;
+    margin-left: 140px;
+    margin-top: 50px;
+}
+
+.social-media {
+    margin-top: 48px;
+    margin-left: 24px;
+}
+
+.social-media-container {
+    margin-left: 630px;
+}
+
+.reserved-unsubscribe-container {
+    display: flex;
+}
+
+.reserver-title,
+.unsubscribe {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 50px;
+    margin-left: 140px;
+}
+
+.unsubscribe {
+    margin-left: 850px;
+}
+
+.footer-contact-image {
+    margin-right: 15px;
+}
