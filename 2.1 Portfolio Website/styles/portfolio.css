@@ -235,11 +235,50 @@ textarea {
 }
 
 @media screen and (max-width: 576px) {
-    .skills-container {
+
+    .skills-container,
+    .resume-container,
+    .about-info-container,
+    .banner,
+    nav,
+    nav>ul,
+    footer {
         flex-direction: column;
     }
 
-    .what-I-do-description {
+    .what-I-do-description,
+    .banner {
         padding: 20px;
+    }
+
+    footer,
+    .about {
+        padding: 10px;
+    }
+
+    .footer-column {
+        width: 100%;
+    }
+
+    .contact input[type="text"],
+    .contact input[type="email"],
+    textarea {
+        width: 85%;
+    }
+
+    .header {
+        background-image: none;
+    }
+
+    .banner .profile-pic {
+        width: 100%;
+    }
+
+    .btn-primary {
+        margin-bottom: 15px;
+    }
+
+    nav>ul {
+        gap: 10px;
     }
 }
