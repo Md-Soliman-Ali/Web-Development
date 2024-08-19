@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.box {
+  background-color: #ff2e63;
+  font-size: larger;
+}
+
+.container {
+  background-color: #536493;
+  display: grid;
+  grid-template-columns: 100px repeat(4, 1fr);
+  gap: 15px;
+  padding: 15px;
+  grid-template-rows: 238px 140px 206px 342px;
+}
+
+.sidebar {
+  grid-row: 1/-1;
+}
+
+.header {
+  grid-column: 2/-1;
+}
+
+.chart-one {
+  grid-column: 2/4;
+}
+
+.chart-two {
+  grid-column: 4/-1;
+}
+
+.overview {
+  grid-column: 2/5;
+}
