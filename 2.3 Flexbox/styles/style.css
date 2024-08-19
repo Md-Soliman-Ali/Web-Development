@@ -17,7 +17,7 @@
 body {
   background-color: var(--blue);
   display: flex;
-  justify-content: cen ter;
+  justify-content: center;
   align-items: center;
   height: 100vh;
 }
