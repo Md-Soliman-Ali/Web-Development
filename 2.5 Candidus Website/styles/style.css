@@ -1,0 +1,156 @@
+:root {
+  --Venetian-Red: #ff214f;
+  --black: #1c1c1c;
+  --gray: #919191;
+  --light-gray: #ebebeb;
+  --primary-font: "Roboto", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 0 25px;
+}
+
+body {
+  background-color: var(--light-gray);
+  font-family: var(--primary-font);
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+}
+
+nav > ul {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+}
+
+.section-primary {
+  padding: 10rem 25px;
+  background: var(--light-gray);
+}
+
+.section-secondary {
+  padding: 10rem 25px;
+  background: var(--black);
+}
+
+.line-primary,
+.line-secondary,
+.line-tertiary {
+  width: 100%;
+  height: 1px;
+  background: var(--Venetian-Red);
+  margin-left: 5px;
+}
+
+.line-primary {
+  background: var(--black);
+}
+
+.line-secondary {
+  background: var(--Venetian-Red);
+}
+
+.line-tertiary {
+  background: var(--light-gray);
+}
+
+.section-title-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.section-title-primary,
+.section-title-secondary,
+.section-title-tertiary {
+  flex-shrink: 0;
+}
+
+.section-title-primary {
+  color: var(--black);
+}
+
+.section-title-secondary {
+  color: var(--Venetian-Red);
+}
+
+.section-title-tertiary {
+  color: var(--light-gray);
+}
+
+.section-heading-primary,
+.section-heading-secondary,
+.section-heading-tertiary {
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+.section-heading-primary {
+  color: var(--black);
+}
+
+.section-heading-secondary {
+  color: var(--Venetian-Red);
+}
+
+.section-heading-tertiary {
+  color: var(--light-gray);
+}
+
+.photo-gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.photo-gallery > img {
+  height: 100%;
+  width: 100%;
+}
+
+.long-img {
+  grid-row: span 2;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 850px) {
+  .photo-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .line-primary,
+  .line-secondary,
+  .line-tertiary {
+    display: none;
+  }
+
+  .section-title-container {
+    justify-content: center;
+  }
+
+  .section-heading-primary,
+  .section-heading-secondary,
+  .section-heading-tertiary {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+}
