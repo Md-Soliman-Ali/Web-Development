@@ -1,0 +1,150 @@
+:root {
+  --primary-color: #ff5400;
+  --secondary-color: #424247;
+  --primary-font: "Mulish", sans-serif;
+  --background-color: #fff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--background-color);
+  font-family: var(--primary-font);
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 25px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-span,
+.primary-color {
+  color: var(--primary-color);
+}
+
+.logo-title {
+  font-size: 2.25rem;
+  margin-left: 16px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+}
+
+.menu-bar > ul {
+  display: flex;
+  list-style: none;
+  gap: 44px;
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: var(--secondary-color);
+}
+
+.travel-banner {
+  background: linear-gradient(
+      180deg,
+      rgba(19, 19, 24, 0.8) 0%,
+      rgba(19, 19, 24, 0) 100%
+    ),
+    url("../images/Group1.png");
+  height: 500px;
+  border-radius: 16px;
+  margin-top: 20px;
+  opacity: 0.9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.travel-heading,
+.travel-description,
+.find-now-button {
+  color: var(--background-color);
+}
+
+.travel-heading {
+  font-size: 3.5rem;
+}
+
+input {
+  padding: 16px;
+  border-radius: 8px;
+  border: none;
+  margin-right: 20px;
+}
+
+.find-now-button {
+  background-color: var(--primary-color);
+  width: 150px;
+  font-size: 1rem;
+  margin-top: 30px;
+}
+
+.travel-description {
+  margin-top: 24px;
+  margin-bottom: 48px;
+}
+
+.primary-heading {
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.primary-content,
+.popular-tours-point {
+  color: var(--secondary-color);
+}
+
+.popular-tours {
+  display: flex;
+  gap: 60px;
+}
+
+.popular-tours,
+.tour-destination {
+  margin-top: 100px;
+}
+
+.primary-content {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.popular-tours-point {
+  padding: 15px;
+}
+
+.popular-tours-point > li {
+  margin-bottom: 20px;
+}
+
+.tour-destination {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.tour-destination {
+  margin-bottom: 48px;
+}
+
+.destination-image {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 300px 286px 300px;
+}
