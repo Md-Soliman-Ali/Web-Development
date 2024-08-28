@@ -1,6 +1,7 @@
 :root {
   --primary-color: #ff5400;
   --secondary-color: #424247;
+  --tertiary-color: #5a5a5d;
   --primary-font: "Mulish", sans-serif;
   --background-color: #fff;
 }
@@ -23,13 +24,16 @@ body {
   padding: 0 25px;
 }
 
-.logo-container {
+.logo-container,
+nav {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .logo-span,
-.primary-color {
+.primary-color,
+.discounts-price-heading {
   color: var(--primary-color);
 }
 
@@ -39,8 +43,6 @@ body {
 }
 
 nav {
-  display: flex;
-  align-items: center;
   justify-content: space-between;
   height: 80px;
 }
@@ -52,6 +54,7 @@ nav {
   font-size: 1.125rem;
   font-weight: 700;
   color: var(--secondary-color);
+  flex-wrap: wrap;
 }
 
 .travel-banner {
@@ -73,7 +76,8 @@ nav {
 
 .travel-heading,
 .travel-description,
-.find-now-button {
+.find-now-button,
+.destination-heading {
   color: var(--background-color);
 }
 
@@ -106,17 +110,25 @@ input {
 }
 
 .primary-content,
-.popular-tours-point {
+.popular-tours-point,
+.perfect-place-point {
   color: var(--secondary-color);
 }
 
-.popular-tours {
+.popular-tours,
+.perfect-place,
+.newsletter {
   display: flex;
   gap: 60px;
 }
 
 .popular-tours,
-.tour-destination {
+.newsletter,
+.perfect-place,
+.tour-destination,
+.choose-us,
+.deals-discounts,
+footer {
   margin-top: 100px;
 }
 
@@ -125,7 +137,8 @@ input {
   margin-bottom: 10px;
 }
 
-.popular-tours-point {
+.popular-tours-point,
+.perfect-place-point {
   padding: 15px;
 }
 
@@ -133,18 +146,367 @@ input {
   margin-bottom: 20px;
 }
 
-.tour-destination {
+.perfect-place-point > li {
+  margin-bottom: 20px;
+}
+
+.tour-destination,
+.choose-us,
+.deals-discounts,
+.footer-description,
+.footer-social-media,
+.footer-copyright {
   display: flex;
   justify-content: center;
   text-align: center;
 }
 
-.tour-destination {
+.tour-destination,
+.choose-us,
+.deals-discounts {
   margin-bottom: 48px;
 }
 
-.destination-image {
+/* .destination-image-row-first,
+.destination-image-row-second,
+.destination-image-row-third {
+  display: flex;
+  column-gap: 20px;
+  margin-top: 20px;
+} */
+
+.destination-image-row-first,
+.destination-image-row-second,
+.destination-image-row-third {
+  display: flex;
+  column-gap: 20px;
+  margin-top: 20px;
+}
+
+.destination-maldives,
+.destination-indonesia,
+.destination-srilanka,
+.destination-north-america,
+.destination-kashmir,
+.destination-bangladesh,
+.destination-bandarban {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+}
+
+.destination-maldives,
+.destination-indonesia {
+  height: 300px;
+  width: 573px;
+}
+
+.destination-srilanka,
+.destination-north-america,
+.destination-kashmir {
+  height: 286px;
+}
+
+.destination-bangladesh,
+.destination-bandarban {
+  height: 300px;
+}
+
+.destination-maldives {
+  background: url("../images/Rectangle2.png");
+}
+
+.destination-indonesia {
+  background: url("../images/Rectangle6.png");
+}
+
+.destination-srilanka {
+  background: url("../images/Rectangle3.png");
+  width: 374px;
+}
+
+.destination-north-america {
+  background: url("../images/Rectangle4.png");
+  width: 474px;
+}
+
+.destination-kashmir {
+  background: url("../images/Rectangle7.png");
+  width: 274px;
+}
+
+.destination-bangladesh {
+  background: url("../images/Rectangle9.png");
+  width: 473px;
+}
+
+.destination-bandarban {
+  background: url("../images/Rectangle8.png");
+  width: 673px;
+}
+
+.destination-heading {
+  font-size: 1.75rem;
+  font-weight: 800;
+}
+
+.handpicked-hotels,
+.world-class-service,
+.best-price-guarantee,
+iframe {
+  border-radius: 16px;
+}
+
+.handpicked-hotels {
+  border: 1px solid rgba(251, 181, 99, 0.2);
+  background: rgba(251, 181, 99, 0.05);
+}
+
+.world-class-service {
+  border: 1px solid rgba(41, 206, 246, 0.2);
+  background: rgba(41, 206, 246, 0.05);
+}
+
+.best-price-guarantee {
+  border: 1px solid rgba(233, 68, 68, 0.2);
+  background: rgba(233, 68, 68, 0.05);
+}
+
+.handpicked-hotels,
+.world-class-service,
+.best-price-guarantee {
+  padding: 32px;
+}
+
+.choose-us-heading,
+.newsletter-heading {
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+.choose-us-heading {
+  margin-top: 32px;
+}
+
+.choose-us-details {
+  margin-top: 16px;
+  width: 500px;
+  color: var(--tertiary-color);
+}
+
+.choose-us-container-top {
+  display: flex;
+  column-gap: 24px;
+}
+
+.choose-us-container-down {
+  display: flex;
+  margin-top: 24px;
+  justify-content: center;
+}
+
+.deals-discounts-background-top,
+.deals-discounts-background-middle,
+.deals-discounts-background-bottom {
+  background: url("../images/Group2.png");
+  border-radius: 16px;
+  height: 500px;
+  display: flex;
+  justify-content: right;
+  padding: 56px;
+}
+
+.tour-satorini {
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 16px;
+  width: 579px;
+  height: 389px;
+  backdrop-filter: blur(2.5px);
+  padding: 50px;
+}
+
+.deals-discounts-info {
+  display: flex;
+}
+
+.deals-discounts-info > p {
+  margin-left: 8px;
+}
+
+.tour-satorini-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 300px 286px 300px;
+}
+
+.discounts-price-heading {
+  font-size: 1.25rem;
+  font-weight: 800;
+  margin-top: 16px;
+  margin-bottom: 24px;
+}
+
+.deals-discounts-background-middle {
+  justify-content: left;
+}
+
+.deals-discounts-background-middle,
+.deals-discounts-background-bottom {
+  margin-top: 24px;
+}
+
+.discounts-all-packages {
+  margin-top: 45px;
+  display: flex;
+  justify-content: center;
+}
+
+.subscribe-btn {
+  width: 100%;
+}
+
+.newsletter-description {
+  border: 1px solid var(--primary-color);
+  border-radius: 16px;
+  padding: 39px;
+}
+
+.newsletter-subscribe {
+  margin-top: 48px;
+}
+
+.subscribe-info {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.newsletter-discount {
+  background: url("../images/Rectangle5.png");
+  width: 672px;
+  height: 422px;
+  border-radius: 16px;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+
+.discount-message {
+  border-radius: 16px;
+  background: var(--primary-color);
+  color: var(--background-color);
+  width: 324px;
+  height: 120px;
+  transform: rotate(-19.628deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.footer-container {
+  background: rgba(19, 19, 24, 0.05);
+}
+
+.footer-container > .logo-container {
+  justify-content: center;
+  padding: 51px;
+}
+
+.footer-copyright {
+  padding: 50px;
+}
+
+.footer-social-media {
+  margin-top: 32px;
+  gap: 24px;
+}
+
+@media only screen and (max-width: 850px) {
+  .logo-title,
+  .travel-heading {
+    font-size: 1.313rem;
+  }
+
+  .logo-container {
+    margin-top: 10px;
+    margin-bottom: 40px;
+  }
+
+  .travel-banner {
+    margin-top: 160px;
+  }
+
+  input {
+    margin-bottom: 20px;
+  }
+
+  .popular-tours,
+  .destination-image-row-first,
+  .destination-image-row-second,
+  .destination-image-row-third,
+  .choose-us-container-top,
+  .perfect-place,
+  .newsletter {
+    flex-direction: column;
+    margin-top: 0px;
+  }
+
+  .popular-tours,
+  .tour-destination,
+  .choose-us,
+  .world-class-service,
+  .deals-discounts,
+  .perfect-place,
+  .newsletter,
+  .newsletter-discount {
+    margin-top: 30px;
+    gap: 0px;
+  }
+
+  .primary-heading,
+  .choose-us-heading {
+    font-size: 1.25rem;
+  }
+
+  .primary-content {
+    font-size: 0.875rem;
+  }
+
+  .newsletter-discount,
+  .popular-tours img,
+  iframe {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .destination-maldives,
+  .destination-indonesia,
+  .destination-srilanka,
+  .destination-north-america,
+  .destination-kashmir,
+  .destination-bangladesh,
+  .destination-bandarban {
+    width: 100%;
+    margin-left: 0;
+    background-size: cover;
+    margin-bottom: 20px;
+  }
+
+  .choose-us-details {
+    width: 100%;
+  }
+
+  .tour-satorini-container {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+  }
+
+  .tour-satorini {
+    padding: 20px;
+  }
+
+  .display-hide,
+  hr {
+    display: none;
+  }
 }
