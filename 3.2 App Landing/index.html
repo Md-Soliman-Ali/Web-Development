@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Landing</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<header>
+    <nav class="bg-[#0E1133] py-6">
+        <div class="container mx-auto px-8 lg:px-24">
+            <div class="flex text-white justify-between">
+                <div class="flex justify-center items-center space-x-8">
+                    <div>
+                        <img src="./images/logo-3.png" alt="">
+                    </div>
+                    <div class="space-x-4 text-lg font-semibold hidden lg:flex">
+                        <a class="hover:text-orange-600 duration-300" href="#">Home</a>
+                        <a class="hover:text-orange-600 duration-300" href="#">About</a>
+                        <a class="hover:text-orange-600 duration-300" href="#">Services</a>
+                        <a class="hover:text-orange-600 duration-300" href="#">Blog</a>
+                        <a class="hover:text-orange-600 duration-300" href="#">Contact</a>
+                    </div>
+                </div>
+
+                <div class="space-x-6 hidden lg:flex">
+                    <button class="text-lg font-semibold">Login</button>
+                    <button
+                        class="bg-orange-600 px-6 py-3 rounded-md text-lg font-semibold hover:bg-transparent border-2 border-orange-600 duration-300">Get
+                        Started</button>
+                </div>
+
+                <div class="lg:hidden">
+                    <img class="w-8 h-8" src="./images/more.png" alt="">
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<body>
+
+    <section class="banner">
+        <div class="bg-[#12174E] pt-24 flex flex-col justify-center items-center">
+            <div class="container px-8 lg:px-24 mx-auto">
+                <div class="text-white text-center space-y-6">
+                    <h1 class="text-4xl lg:text-7xl font-bold">Creative way to <br> Showcase your <span
+                            class="text-orange-600">App</span></h1>
+                    <p class="opacity-70 text-xl">Your app gets maximum attention and gets more and more downloads.</p>
+                    <div class="space-x-4 flex justify-center items-center">
+                        <button
+                            class="bg-orange-600 px-6 py-3 rounded-md text-lg font-semibold hover:bg-transparent border-2 border-orange-600 duration-300">
+                            Get a Quote</button>
+                        <button class="flex text-lg font-semibold">
+                            <img class="mr-4 w-7" src="./images/play-button.png" alt="">
+                            Play Video</button>
+                    </div>
+                </div>
+                <div class="translate-y-24 md:translate-y-36 lg:translate-y-56 flex justify-center">
+                    <img src="./images/hero-thumb-4.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="my-48">
+        <div class="text-center mb-24">
+            <h1 class="text-7xl font-bold opacity-80 mb-6">What you can do</h1>
+            <p class="w-[50%] mx-auto opacity-70 text-lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo
+                fugit, sequi consequuntur quod dicta vero quaerat beatae officia repellat optio, culpa aliquam
+                blanditiis expedita dolor.</p>
+        </div>
+
+        <div class="container mx-auto lg:px-24">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="p-8 shadow-xl rounded-md">
+                    <div class="w-14 h-14 bg-green-500 rounded-full mx-auto flex items-center justify-center">
+                        <img src="./images/play-store.png" alt="">
+                    </div>
+                    <div class="text-center mt-6 space-y-4">
+                        <h6 class="text-lg font-medium opacity-90">Easy To use</h6>
+                        <p class="text-lg opacity-80">Lorem ipsum dolor, sit
+                            amet consectetur adipisicing elit. Nisi, ad?</p>
+                        <button>Read More</button>
+                    </div>
+                </div>
+
+                <div class="p-8 shadow-xl rounded-md">
+                    <div class="w-14 h-14 bg-yellow-500 rounded-full mx-auto flex items-center justify-center">
+                        <img src="./images/play-store.png" alt="">
+                    </div>
+                    <div class="text-center mt-6 space-y-4">
+                        <h6 class="text-lg font-medium opacity-90">Easy To use</h6>
+                        <p class="text-lg opacity-80">Lorem ipsum dolor, sit
+                            amet consectetur adipisicing elit. Nisi, ad?</p>
+                        <button>Read More</button>
+                    </div>
+                </div>
+
+                <div class="p-8 shadow-xl rounded-md">
+                    <div class="w-14 h-14 bg-blue-500 rounded-full mx-auto flex items-center justify-center">
+                        <img src="./images/play-store.png" alt="">
+                    </div>
+                    <div class="text-center mt-6 space-y-4">
+                        <h6 class="text-lg font-medium opacity-90">Easy To use</h6>
+                        <p class="text-lg opacity-80">Lorem ipsum dolor, sit
+                            amet consectetur adipisicing elit. Nisi, ad?</p>
+                        <button>Read More</button>
+                    </div>
+                </div>
+
+                <div class="p-8 shadow-xl rounded-md">
+                    <div class="w-14 h-14 bg-purple-500 rounded-full mx-auto flex items-center justify-center">
+                        <img src="./images/play-store.png" alt="">
+                    </div>
+                    <div class="text-center mt-6 space-y-4">
+                        <h6 class="text-lg font-medium opacity-90">Easy To use</h6>
+                        <p class="text-lg opacity-80">Lorem ipsum dolor, sit
+                            amet consectetur adipisicing elit. Nisi, ad?</p>
+                        <button>Read More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
