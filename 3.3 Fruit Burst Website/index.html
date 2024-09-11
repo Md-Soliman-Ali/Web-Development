@@ -136,8 +136,296 @@
             </div>
         </div>
     </section>
-</body>
 
-<footer></footer>
+    <section class="my-10 py-10 container px-8 lg:px-24 mx-auto">
+        <div class="flex flex-col lg:flex-row justify-center items-center">
+            <div>
+                <h2 class="text-4xl font-bold mb-2">Deal of the day</h2>
+                <p class="lg:w-2/3 text-lg opacity-80">Contrary to popular belief, is not simply random text. It has
+                    roots
+                    in a piece of classical Latin
+                    literature from 45 BC, making it over 2000 years old.</p>
+            </div>
+
+            <div>
+                <div class="grid auto-cols-max grid-flow-col gap-5 text-center mt-14 md:mt-0 lg:mt-0">
+                    <div class="flex flex-col">
+                        <span class="countdown font-mono text-5xl">
+                            <span style="--value:15;"></span>
+                        </span>
+                        days
+                    </div>
+                    <div class="flex flex-col">
+                        <span class="countdown font-mono text-5xl">
+                            <span style="--value:10;"></span>
+                        </span>
+                        hours
+                    </div>
+                    <div class="flex flex-col">
+                        <span class="countdown font-mono text-5xl">
+                            <span style="--value:24;"></span>
+                        </span>
+                        min
+                    </div>
+                    <div class="flex flex-col">
+                        <span class="countdown font-mono text-5xl">
+                            <span style="--value:${counter};"></span>
+                        </span>
+                        sec
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div class="border-2 flex flex-col items-center justify-center px-4 py-6 space-y-4 rounded-md">
+                <img src="./images/fruit6.png" alt="">
+                <h6>$12.99-$18.99</h6>
+                <div class="divider"></div>
+                <p>Apple</p>
+                <div>
+                    <div class="rating">
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked="checked" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    </div>
+                </div>
+                <button class="btn btn-ghost text-red-400 mt-3">Details</button>
+            </div>
+
+            <div class="border-2 flex flex-col items-center justify-center px-4 py-6 space-y-4 rounded-md">
+                <img src="./images/fruit7.png" alt="">
+                <h6>$12.99-$18.99</h6>
+                <div class="divider"></div>
+                <p>Orange</p>
+                <div>
+                    <div class="rating">
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked="checked" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    </div>
+                </div>
+                <button class="btn btn-ghost text-red-400 mt-3">Details</button>
+            </div>
+
+            <div class="border-2 flex flex-col items-center justify-center px-4 py-6 space-y-4 rounded-md">
+                <img src="./images/fruit8.png" alt="">
+                <h6>$12.99-$18.99</h6>
+                <div class="divider"></div>
+                <p>Red Dragon</p>
+                <div>
+                    <div class="rating">
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked="checked" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    </div>
+                </div>
+                <button class="btn btn-ghost text-red-400 mt-3">Details</button>
+            </div>
+
+            <div class="border-2 flex flex-col items-center justify-center px-4 py-6 space-y-4 rounded-md">
+                <img src="./images/fruit9.png" alt="">
+                <h6>$12.99-$18.99</h6>
+                <div class="divider"></div>
+                <p>Banana</p>
+                <div>
+                    <div class="rating">
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked="checked" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    </div>
+                </div>
+                <button class="btn btn-ghost text-red-400 mt-3">Details</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- <section class="my-32">
+        <div class="container px-8 lg:px-24 mx-auto">
+            <div
+                class="h-[70vh] w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url(./images/team.png)] bg-center bg-cover rounded-md flex items-center justify-center text-center">
+                <div class="text-white text-center">
+                    <h4 class="text-4xl font-bold mb-2">Meet the team section</h4>
+                    <p class="w-2/3 mx-auto my-4">Contrary to popular belief, is not simply
+                        random text. It has roots in a piece of classical Latin
+                        literature from 45 BC, making it over 2000 years old.</p>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <section class="my-32">
+        <div class="container px-8 lg:px-24 mx-auto">
+            <h1 class="text-center text-5xl">Why Choose Us</h1>
+            <p class="w-2/3 mx-auto text-center my-4">Contrary to popular belief, is not simply random text. It has
+                roots in a piece
+                of classical <br>
+                Latin literature from 45 BC, making it over 2000 years old.</p>
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 mt-24">
+                <div>
+                    <div class="flex space-x-3 mt-5">
+                        <div class="h-12 w-12 rounded-full bg-slate-200 flex items-center justify-center">
+                            <img src="./images/group1.png" alt="">
+                        </div>
+                        <div>
+                            <h3 class="font-bold">Dedicated Team</h3>
+                            <div class="divider"></div>
+                            <p>Professional employees are there for you <br> to pick the most amazing and fresh fruits.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="flex space-x-3 mt-5">
+                        <div class="h-12 w-12 rounded-full bg-slate-200 flex items-center justify-center">
+                            <img src="./images/love1.png" alt="">
+                        </div>
+                        <div>
+                            <h3 class="font-bold">Fresh is Best</h3>
+                            <div class="divider"></div>
+                            <p>Professional employees are there for you <br> to pick the most amazing and fresh fruits.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="flex space-x-3 mt-5">
+                        <div class="h-12 w-12 rounded-full bg-slate-200 flex items-center justify-center">
+                            <img src="./images/gift-box1.png" alt="">
+                        </div>
+                        <div>
+                            <h3 class="font-bold">Gift Certificates</h3>
+                            <div class="divider"></div>
+                            <p>Professional employees are there for you <br> to pick the most amazing and fresh fruits.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <img src="./images/whychoose1.png" alt="">
+                </div>
+                <div class="ml-16">
+                    <div class="flex space-x-3 mt-5">
+                        <div class="text-right">
+                            <h3 class="font-bold">Integrated Supplier</h3>
+                            <div class="divider"></div>
+                            <p>Professional employees are there for you <br> to pick the most amazing and fresh fruits.
+                            </p>
+                        </div>
+                        <div class="h-12 w-12 rounded-full bg-slate-200 flex items-center justify-center">
+                            <img src="./images/fruit10.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="flex space-x-3 mt-5">
+                        <div class="text-right">
+                            <h3 class="font-bold">Sustainable Practice</h3>
+                            <div class="divider"></div>
+                            <p>Professional employees are there for you <br> to pick the most amazing and fresh fruits.
+                            </p>
+                        </div>
+                        <div class="h-12 w-12 rounded-full bg-slate-200 flex items-center justify-center">
+                            <img src="./images/ice-cream1.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="flex space-x-3 mt-5">
+                        <div class="text-right">
+                            <h3 class="font-bold">The Benefits Only</h3>
+                            <div class="divider"></div>
+                            <p>Professional employees are there for you <br> to pick the most amazing and fresh fruits.
+                            </p>
+                        </div>
+                        <div class="h-12 w-12 rounded-full bg-slate-200 flex items-center justify-center">
+                            <img src="./images/like1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="my-32">
+        <div class="container mx-auto lg:px-24 px-8">
+            <h1 class="text-center text-5xl">Contact Us</h1>
+            <p class="w-2/3 mx-auto text-center my-4">Please fill this form in a decent manner</p>
+            <div class="mt-12 grid grid-cols-1 lg:grid-cols-3 gap-6">
+                <div class="lg:col-span-2">
+                    <div class="grid gap-6 grid-cols-1 lg:grid-cols-2">
+                        <div>
+                            <label class="font-bold" for="">First Name</label>
+                            <input type="text" placeholder="Type here" class="input input-bordered w-full mt-2" />
+                        </div>
+                        <div>
+                            <label class="font-bold" for="">Last Name</label>
+                            <input type="text" placeholder="Type here" class="input input-bordered w-full mt-2" />
+                        </div>
+                    </div>
+
+                    <div class="grid gap-6 grid-cols-1 lg:grid-cols-2 mt-4">
+                        <div>
+                            <label class="font-bold" for="">Your Email</label>
+                            <input type="email" placeholder="Type here" class="input input-bordered w-full mt-2" />
+                        </div>
+                        <div>
+                            <label class="font-bold" for="">Phone Number</label>
+                            <input type="number" placeholder="Type here" class="input input-bordered w-full mt-2" />
+                        </div>
+                    </div>
+
+                    <div class="mt-4">
+                        <label class="font-bold" for="">Your Message</label>
+                        <textarea class="textarea textarea-bordered w-full mt-2" placeholder="Bio" rows="5"></textarea>
+                    </div>
+
+                    <p class="opacity-80">By submitting this form you agree to our Terms & conditions and our Privacy
+                        Policy which explains how we may collect, use and disclose your personal information including
+                        to third parties.</p>
+
+                    <button class="btn bg-red-400 mt-3 text-white">Send Message</button>
+                </div>
+
+                <div class="flex justify-center flex-col items-center">
+                    <div>
+                        <div class="bg-slate-200 h-10 w-10 rounded-lg flex items-center justify-center mx-auto">
+                            <img class="h-6" src="./images/apartment.png" alt="">
+                        </div>
+                        <div class="text-center space-y-2">
+                            <h6>Contact Info</h6>
+                            <p>123 Anywhere St., Any City, ST 12345</p>
+                        </div>
+                    </div>
+
+                    <div class="mt-6">
+                        <div class="bg-slate-200 h-10 w-10 rounded-lg flex items-center justify-center mx-auto">
+                            <img class="h-6" src="./images/location.png" alt="">
+                        </div>
+                        <div class="text-center space-y-2">
+                            <h6>Contact Info</h6>
+                            <p>123 Anywhere St., Any City, ST 12345</p>
+                        </div>
+                    </div>
+
+                    <div class="mt-6">
+                        <div class="bg-slate-200 h-10 w-10 rounded-lg flex items-center justify-center mx-auto">
+                            <img class="h-6" src="./images/phone.png" alt="">
+                        </div>
+                        <div class="text-center space-y-2">
+                            <h6>Contact Info</h6>
+                            <p>123-456-7890</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
 
 </html>
