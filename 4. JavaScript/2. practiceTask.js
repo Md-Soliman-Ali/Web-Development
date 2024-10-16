@@ -96,7 +96,7 @@ if num1 is bigger than num2 then result will be double of num1. if not, then the
 write a simple if-else. 
 
 also, write it using ternary operator.
- */
+*/
 
 let num1 = 10;
 let num2 = 5;
